@@ -1,0 +1,89 @@
+# Copyright (C) 2019 Francis Appels <francis.appels@z-application.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleBackOrderName'
+ModuleBackOrderName = BackOrder
+# Module description 'ModuleBackOrderDesc'
+ModuleBackOrderDesc = List your backorders of products
+
+#
+# Admin page
+#
+BackOrderSetup = BackOrder setup
+Settings = Settings
+BackOrderSetupPage = BackOrder setup page
+BACKORDER_CUSTOMER_ORDER = Backorders for customer orders
+BACKORDER_CUSTOMER_ORDERTooltip = Backorders of customers orders in dolibarr is based on open customer orders and shipments made. A partial shipment of your customer order will add backorder in the customer backorder list. You will be able to print a backorder pdf from the order concerned. When the order is classified delivered, the products from the order are removed from the backorder list.
+BACKORDER_SUPPLIER_ORDER = Backorders for supplier orders
+BACKORDER_SUPPLIER_ORDERTooltip = Backorders of suppliers orders in dolibarr is based on open supplier orders and item receipts made. A partial receive of your supplier order will add backorder in the supplier backorder list. When the order is classified as all received or canceled, the products from the order are removed from the backorder list.
+BACKORDER_CUSTOMER_ORDER_NONSHIP = Also add orders with no shipment
+BACKORDER_CUSTOMER_ORDER_NONSHIPTooltip = Validated orders with no shipment are also included.
+BACKORDER_SUPPLIER_ORDER_NONRECEIVE = Also add orders with no receiving's
+BACKORDER_SUPPLIER_ORDER_NONRECEIVETooltip = Ordered orders with no receiving's are also included.
+BACKORDER_SERVICES = Also include customer order services
+BACKORDER_SERVICESTooltip = Also show unshipped services.
+BACKORDER_SUPPLIER_SERVICES = Also include supplier order services
+BACKORDER_SUPPLIER_SERVICESTooltip = Also show not received supplier services.
+regenerateCustomerBackorders = Regenerate Customer Backorders
+CustomerBackordersGenerated = Customer backorders generated for %s orderlines
+deleteBackordersFailed = Delete of all backorder data failed
+generateBackordersFailed = Generate of all backorder data failed
+regenerateSupplierBackorders = Regenerate Supplier Backorders
+SupplierBackordersGenerated = Supplier backorders generated for %s orderlines
+
+#
+# About page
+#
+About = About
+BackOrderAbout = About BackOrder
+BackOrderAboutPage = BackOrder about page
+
+#
+# other pages
+#
+qtytosend = Qty to send
+OrderLine = Order line
+BackOrder = Backorder amount (excl. tax)
+LineAmount = Line amount (excl. tax)
+OrderAmount = Order amount (excl. tax)
+LineBackorderQty = Line in backorder
+OrderBackorderQty = Order in backorder
+ShippedQty = Shipped
+OrderQty = Ordered
+PdfBackOrderTitle = Backorders
+BackOrderDoc = Generate backorders doc
+TotalBackOrder = Total backorder amount (excl. tax)
+OnBackOrderOrders = Orders with Backorder
+BackOrderList = Backorder List
+DispatchedQty = Received
+BackOrders = Backorders
+BackOrderShippable = Shippable, total %d product(s) needed and %d in stock.
+BackOrderNotShippable = Not shippable, total %d product(s) needed and %d in stock.
+BackOrderShippableShort = Shippable
+BackOrderNotShippableShort = Not shippable
+ReadBackorders = Read backorders
+ReadSupplierBackorders = Read Supplier backorders
+ProductBackorderQty = Product in backorder
+PartlyShippable = Partly shippable, total %d product(s) needed and %d in stock.
+NotFullyShippable = Not fully shippable, total %d product(s) needed and %d  instock.
+PartlyShippableShort = Partly shippable
+NotFullyShippableShort = Not fully shippable
+ProductStock = Physical stock
+BackorderQty = There are %s product(s) in backorder
+NoBackorders = There are no products in backorder

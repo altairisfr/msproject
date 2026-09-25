@@ -1,0 +1,84 @@
+# Copyright (C) 2019 Francis Appels <francis.appels@z-application.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleBackOrderName'
+ModuleBackOrderName = Reliquat
+# Module description 'ModuleBackOrderDesc'
+ModuleBackOrderDesc = Permet la gestion des reliquats de livraison
+
+#
+# Page d'administration
+#
+BackOrderSetup = Configuration du module Reliquat
+Settings = Réglages
+BackOrderSetupPage = Page de configuration du module Reliquat
+BACKORDER_CUSTOMER_ORDER = Reliquat pour commandes client
+BACKORDER_CUSTOMER_ORDERTooltip = Les reliquats de commande client en se basant sur les commandes clients ouvertes et les livraisons faites. Une livraison partielle de votre commande client fera ressortir un reliquat de livraison dans le module des reliquats. Il vous sera possible d'imprimer un pdf de reliquat depuis la commande concernée. Si vous cloturez la commande en "classer/livrer" le reliquat disparaitra de l'affichage.
+BACKORDER_SUPPLIER_ORDER = Reliquat pour commandes fournisseur
+BACKORDER_SUPPLIER_ORDERTooltip = Les reliquats de commande fournisseur en se basant sur les commandes fournisseurs ouverte et les livraisons recues. Une livraison partielle de votre commande fournisseur fera ressortir un reliquat de livraison dans le module des reliquats. Si vous classer la commande en "Complète" au "Annulé" le reliquat disparaitra de l'affichage.
+BACKORDER_CUSTOMER_ORDER_NONSHIP = Ajoutez également les commandes sans expédition
+BACKORDER_CUSTOMER_ORDER_NONSHIPTooltip = Les commandes validées sans expédition sont également incluses.
+BACKORDER_SUPPLIER_ORDER_NONRECEIVE = Ajoutez également les commandes sans réception
+BACKORDER_SUPPLIER_ORDER_NONRECEIVETooltip = Les commandes sans accusé de réception sont également incluses.
+BACKORDER_SERVICES = Incluez également les services de commande client
+BACKORDER_SERVICESTooltip = Indiquez également les services non expédiés.
+BACKORDER_SUPPLIER_SERVICES = Incluez également les services de commande fournisseur
+BACKORDER_SUPPLIER_SERVICESTooltip = Indiquez également les services du fournisseur non reçus.
+regenerateCustomerBackorders = Régénérer Reliquat client
+CustomerBackordersGenerated = Reliquat client généré pour %s lignes de commandes
+deleteBackordersFailed = La suppression de toutes les données Reliquat a échoué
+generateBackordersFailed = Échec de la génération de toutes les données de Reliquat
+regenerateSupplierBackorders = Régénérer Reliquat fournisseur
+SupplierBackordersGenerated = Reliquat fournisseur généré pour %s lignes de commandes
+
+# Page À propos
+#
+About = À propos
+BackOrderAbout = À propos de Reliquat
+BackOrderAboutPage = Page à propos de Reliquat
+
+#
+# other pages
+#
+qtytosend = Qté a envoyer
+OrderLine = Libellé
+BackOrder = Reliquat HT
+LineAmount = Ligne reliquat HT
+OrderAmount = Order reliquat HT
+LineBackorderQty = Ligne Qté reliquat
+OrderBackorderQty = Commande Qté reliquat
+ShippedQty = Expédié
+OrderQty = commandé
+PdfBackOrderTitle = Reliquat
+BackOrderDoc = Générer doc reliquat
+TotalBackOrder = Montant total reliquat HT
+OnBackOrderOrders = Commandes avec Reliquat
+BackOrderList = Liste Reliquat
+DispatchedQty = Reçu
+BackOrders = reliquats
+BackOrderShippable = Expédiable, total de %d produit(s) nécessaire(s) et %d de stock.
+BackOrderNotShippable = Non expédiable, total de %d produit(s) nécessaire(s) et %d de stock.
+ReadBackorders = Lire reliquat
+ReadSupplierBackorders = Lire reliquat fournisseur
+ProductBackorderQty = Reliquat produit
+PartlyShippable = Partiellement expédiable, total de %d produit(s) nécessaire(s) et %d de stock.
+NotFullyShippable = Pas entièrement expédiable, total de %d produit(s) nécessaire(s) et %d de stock.
+ProductStock = Stock physique
+BackorderQty = Il y a %s produit(s) en reliquat
+NoBackorders = Il n'y a pas de produits en reliquat

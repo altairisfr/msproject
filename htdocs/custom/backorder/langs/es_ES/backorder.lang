@@ -1,0 +1,85 @@
+# Copyright (C) 2019 Francis Appels <francis.appels@z-application.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleBackOrderName'
+ModuleBackOrderName = Pedidos atrasados
+# Module description 'ModuleBackOrderDesc'
+ModuleBackOrderDesc = Enumere sus pedidos atrasados de productos
+
+#
+# Admin page
+#
+BackOrderSetup = Configuración del pedidos atrasados
+Settings = Configuración
+BackOrderSetupPage = Página de configuración del pedido atrasados
+BACKORDER_CUSTOMER_ORDER = Los pedidos atrasados de los clientes
+BACKORDER_CUSTOMER_ORDERTooltip = Los pedidos atrasados de los clientes en dolibarr se basan en los pedidos abiertos de los clientes y los envíos realizados. Un envío parcial del pedido del cliente generará un pedido pendiente en la lista del módulo. Podrá imprimir un pdf de pedido pendiente del pedido en cuestión. Cuando el pedido se clasifica como entregado, los productos del pedido se eliminan de la lista de pedidos atrasados.
+BACKORDER_SUPPLIER_ORDER = Los pedidos atrasados de los proveedores
+BACKORDER_SUPPLIER_ORDERTooltip = Los pedidos atrasados de los proveedores en dolibarr se basan en los pedidos abiertos de los proveedores y en los recibos de los artículos realizados. Una recepción parcial de su pedido de proveedor generará un pedido pendiente en la lista del módulo. Cuando el pedido se clasifica como todo lo recibido o cancelado, los productos del pedido se eliminan de la lista de pedidos atrasados.
+BACKORDER_CUSTOMER_ORDER_NONSHIP = También agregue los pedidos sin envío
+BACKORDER_CUSTOMER_ORDER_NONSHIPTooltip = También se incluyen los pedidos validados sin envío.
+BACKORDER_SUPPLIER_ORDER_NONRECEIVE = También agregue los pedidos sin recibirlos
+BACKORDER_SUPPLIER_ORDER_NONRECEIVETooltip = También se incluyen los pedidos sin recibirlos.
+BACKORDER_SERVICES = También incluye servicios de pedidos de clientes
+BACKORDER_SERVICESTooltip = También muestra los servicios no enviados.
+BACKORDER_SUPPLIER_SERVICES = También incluye servicios de pedidos a proveedores
+BACKORDER_SUPPLIER_SERVICESTooltip = También muestran los servicios de proveedores no recibidos.
+regenerateCustomerBackorders = Regenerar atrasados de los clientes
+CustomerBackordersGenerated = Los pedidos atrasados de los clientes se generaron para %s líneas de pedidos
+deleteBackordersFailed = Falló la eliminación de todos los datos de los pedidos atrasados
+generateBackordersFailed = La generación de todos los datos de pedidos pendientes falló
+regenerateSupplierBackorders = Regenerar atrasados de los proveedores
+SupplierBackordersGenerated = Se generaron pedidos atrasados de proveedores para %s líneas de pedidos
+
+#
+# About page
+#
+About = Acerca de
+BackOrderAbout = Acerca de pedidos atrasados
+BackOrderAboutPage = Acerca de la página pedidos atrasados
+
+#
+# other pages
+#
+qtytosend = Cantidad a enviar
+OrderLine = Línea de pedidos
+BackOrder = Cantidad atrasados (Base imp.)
+LineAmount = Cantidad Línea (Base imp.)
+OrderAmount = Cantidad pedidos (Base imp.)
+LineBackorderQty = Línea Cantidad
+OrderBackorderQty = Pedidos Cantidad
+ShippedQty = Enviado
+OrderQty = Pedido
+PdfBackOrderTitle = Pedidos atrasados
+BackOrderDoc = Generar documentos atrasados
+TotalBackOrder = Cantidad total atrasados (Base imp.)
+OnBackOrderOrders = Pedidos con retraso
+BackOrderList = Lista de atrasados
+DispatchedQty = Recibido
+BackOrders = Pedidos atrasados
+BackOrderShippable = Enviable, total %d producto(s) necesario(s) y %d stock.
+BackOrderNotShippable = No enviable, total %d producto(s) necesario(s) y %d stock.
+ReadBackorders = Leer pedidos atrasados
+ReadSupplierBackorders = Leer pedidos atrasados de proveedores
+ProductBackorderQty = Producto Cantidad
+PartlyShippable = Parcialmente enviable, total %d producto(s) necesario(s) y %d stock.
+NotFullyShippable = No completamente enviable, total %d producto(s) necesario(s) y %d stock.
+ProductStock = Stock físico
+BackorderQty = Hay %s producto(s) en pedido atrasado
+NoBackorders = No hay productos en pedido atrasado

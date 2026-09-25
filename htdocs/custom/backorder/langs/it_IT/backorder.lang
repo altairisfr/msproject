@@ -1,0 +1,68 @@
+# Copyright (C) 2023 Claudio Aschieri <c.aschieri@19.coop>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+ModuleBackOrderName=BackOrder
+ModuleBackOrderDesc=Elenco backorders clienti e fornitori
+BackOrderSetup=BackOrder impostazioni
+Settings=Impostazioni
+BackOrderSetupPage=BackOrder pagina impostazioni
+BACKORDER_CUSTOMER_ORDER=Backorders per ordini clienti
+BACKORDER_CUSTOMER_ORDERTooltip=Backorders per ordini clienti basati sugli ordini clienti e le spedizioni realizzate. Una spedizione parziale dell'ordine cliente aggiungerà l'ordine arretrato nell'elenco degli ordini arretrati dei clienti. Potrai stampare un pdf arretrato dall'ordine in questione. Quando l'ordine viene classificato come consegnato, i prodotti dell'ordine vengono rimossi dall'elenco degli ordini arretrati.
+BACKORDER_SUPPLIER_ORDER=Backorders per ordini fornitori
+BACKORDER_SUPPLIER_ORDERTooltip=Backorders per ordini fornitori basati sugli ordini fornitori e i prodotti ricevuti. Una ricezione parziale del tuo ordine fornitore aggiungerà l'ordine arretrato nell'elenco degli ordini arretrati dei fornitori. Quando l'ordine viene classificato come ricevuto o annullato, i prodotti dell'ordine vengono rimossi dall'elenco degli ordini arretrati.
+BACKORDER_CUSTOMER_ORDER_NONSHIP=Includi anche gli ordini senza spedizioni
+BACKORDER_CUSTOMER_ORDER_NONSHIPTooltip=Includi anche ordini convalidati senza spedizioni
+BACKORDER_SUPPLIER_ORDER_NONRECEIVE=Includi ordini fornitori senza ricezioni
+BACKORDER_SUPPLIER_ORDER_NONRECEIVETooltip=Includi ordini fornitori senza ricezioni
+BACKORDER_SERVICES=Includi anche ordini clienti con servizi
+BACKORDER_SERVICESTooltip=Includi anche servizi non spediti
+BACKORDER_SUPPLIER_SERVICES=Includi anche ordini fornitori con servizi
+BACKORDER_SUPPLIER_SERVICESTooltip=Includi anche ordini fornitori non ricevuti con servizi
+regenerateCustomerBackorders=Rigenera i backorders clienti
+CustomerBackordersGenerated=Backorders clienti rigenerati per %s righe di ordine
+deleteBackordersFailed=Eliminazione non riuscita
+generateBackordersFailed=Generazione non riuscita
+regenerateSupplierBackorders=Rigenera backorder ordini fornitori
+SupplierBackordersGenerated=Backorders fornitori rigenerati per %s righe di ordine
+
+About=About
+BackOrderAbout=A proposito di BackOrder
+BackOrderAboutPage=BackOrder about page
+qtytosend=Q.tà da spedire
+OrderLine=Riga ordine
+BackOrder=Backorder importo (IVA escl.)
+LineAmount=Importo riga (IVA escl.)
+OrderAmount=Importo ordine (IVA escl.)
+LineBackorderQty=Q.tà riga backorder
+OrderBackorderQty=Q.tà tot. ordine
+ShippedQty=Q.tà Spedita
+OrderQty=Q.tà Ordinata
+PdfBackOrderTitle=Backorders
+BackOrderDoc=Genera doc backorders
+TotalBackOrder=Importo totale backorder (IVA escl.)
+OnBackOrderOrders=Ordini con Backorder
+BackOrderList=Elenco Backorder
+DispatchedQty=Ricevuti
+BackOrders=Backorders
+BackOrderShippable=Spedibili, totale %d prodotti necessari e scorte %d.
+BackOrderNotShippable=Non spedibili, totale %d prodotti necessari e scorte %d.
+ReadBackorders=Backorders letti
+ReadSupplierBackorders=Backorders fornitori letti
+ProductBackorderQty=Prodotti nel backorder
+PartlyShippable=Parzialmente spediti, totale %d prodotti necessari e scorte %d.
+NotFullyShippable=Non completamente spedici, totale %d prodotti necessari e scorte %d.
+ProductStock=Scorte fisiche
+BackorderQty = Ci sono %s prodotto/i in backorder
+NoBackorders = Non ci sono prodotti in backorder
