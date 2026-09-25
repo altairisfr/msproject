@@ -1078,6 +1078,19 @@ if ($action == 'create') {
 				$dispatchLines[$n]['array_options'] = $extrafields->getOptionalsFromPost('receptiondet_batch', '_' . $suffix, '');
 			}
 
+			$reshook = $hookmanager->executeHooks('dataProcessing', $parameters, $object, $action); // Note that $action and $object may have been modified by some hooks
+			if ($reshook < 0) {
+				setEventMessages($hookmanager->error, $hookmanager->errors, 'errors');
+			} elseif (empty($reshook)) {
+				$dispatchLines = array_merge($dispatchLines, $hookmanager->resArray);
+			} elseif ($reshook > 0) {
+				// $resArray starts from [0], we need $dispatchLines to start from [1], so we shift it
+				array_unshift($hookmanager->resArray, null);
+				unset($hookmanager->resArray[0]);
+				$dispatchLines = $hookmanager->resArray;
+				$numAsked = count($dispatchLines);
+			}
+
 			print '<script type="text/javascript">
             jQuery(document).ready(function() {
 	            jQuery("#autofill").click(function(event) {
@@ -1132,6 +1145,13 @@ if ($action == 'create') {
 					if (!getDolGlobalInt('PRODUCT_DISABLE_EATBY')) {
 						print '<td class="left">'.$langs->trans("EatByDate").'</td>';
 					}
+				}
+				$reshook = $hookmanager->executeHooks('printFieldListTitle', $parameters, $object, $action); // Note that $action and $object may have been modified by some hooks
+				if ($reshook < 0) {
+					setEventMessages($hookmanager->error, $hookmanager->errors, 'errors');
+				}
+				else {
+					print $hookmanager->resPrint;
 				}
 				print "</tr>\n";
 			}
@@ -1324,6 +1344,15 @@ if ($action == 'create') {
 							print '<td colspan="3"></td>';
 						}
 					}
+
+                    $parameters = array();
+					$parameters['dispatchLine'] = $dispatchLines[$indiceAsked];
+					$parameters['indiceAsked'] = $indiceAsked;
+					$reshook = $hookmanager->executeHooks('printFieldListValue', $parameters, $object, $action); // Note that $action and $object may have been modified by some hooks
+					if ($reshook < 0) {
+						setEventMessages($hookmanager->error, $hookmanager->errors, 'errors');
+					}
+					else print $hookmanager->resPrint;
 				}
 
 				$arrayofpurchaselinealreadyoutput[$line->id] = $line->id;
@@ -1819,6 +1848,8 @@ if ($action == 'create') {
 		if (isModEnabled('productbatch')) {
 			print '<td class="left">'.$langs->trans("Batch").'</td>';
 		}
+		$reshook = $hookmanager->executeHooks('printFieldListTitle', $parameters, $object, $action);
+		print $hookmanager->resPrint;
 	}
 	print '<td class="center">'.$langs->trans("CalculatedWeight").'</td>';
 	print '<td class="center">'.$langs->trans("CalculatedVolume").'</td>';
@@ -2041,6 +2072,15 @@ if ($action == 'create') {
 				}
 			}
 			print '</table></td>';
+
+			$parameters = array();
+			$parameters['line'] = $lines[$i];
+			$reshook = $hookmanager->executeHooks('printFieldListValue', $parameters, $object, $action); // Note that $action and $object may have been modified by some hooks
+			if ($reshook < 0) {
+				setEventMessages($hookmanager->error, $hookmanager->errors, 'errors');
+			} else {
+				print $hookmanager->resPrint;
+			}
 		} else {
 			// Qty to receive or received
 			print '<td class="center linecolqtytoreceive">'.$lines[$i]->qty.'</td>';
@@ -2088,6 +2128,12 @@ if ($action == 'create') {
 					print '<td></td>';
 				}
 			}
+
+				$parameters = array();
+				$parameters['line'] = $lines[$i];
+				$hookmanager->executeHooks('printFieldListValue', $parameters, $object, $action);
+
+				print $hookmanager->resPrint;
 		}
 
 		// Weight
@@ -2133,6 +2179,13 @@ if ($action == 'create') {
 		print "</tr>";
 
 		$arrayofpurchaselinealreadyoutput[$lines[$i]->fk_commandefourndet] = $lines[$i]->fk_commandefourndet;
+
+			$reshook = $hookmanager->executeHooks('formObjectOptions', $parameters, $object, $action); // Note that $action and $object may have been modified by some hooks
+			if ($reshook < 0) {
+				setEventMessages($hookmanager->error, $hookmanager->errors, 'errors');
+			} else {
+				print $hookmanager->resPrint;
+			}
 
 		// Display lines extrafields
 		$extralabelslines = $extrafields->attributes[$lines[$i]->table_element];
