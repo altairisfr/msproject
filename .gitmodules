@@ -1,0 +1,18 @@
+[submodule "htdocs/custom/digiquali"]
+	path = htdocs/custom/digiquali
+	url = https://github.com/Evarisk/digiquali.git
+[submodule "htdocs/custom/saturne"]
+	path = htdocs/custom/saturne
+	url = https://github.com/Evarisk/saturne.git
+[submodule "htdocs/custom/dolitools"]
+	path = htdocs/custom/dolitools
+	url = dev.altairis.net:altairisfr/dolitools.git
+[submodule "htdocs/custom/equipement"]
+	path = htdocs/custom/equipement
+	url = dev.altairis.net:altairisfr/equipement.git
+[submodule "htdocs/custom/concatpdf"]
+	path = htdocs/custom/concatpdf
+	url = dev.altairis.net:altairisfr/concatpdf.git
+[submodule "htdocs/custom/swissbanking"]
+	path = htdocs/custom/swissbanking
+	url = dev.altairis.net:altairisfr/swissbanking.git
