@@ -93,3 +93,30 @@ phpstan_custom.neon
 
 # ignore .htaccess files
 .htaccess
+
+# swissanking fonts
+htdocs/includes/tecnickcom/tcpdf/fonts/arial.ctg.z
+htdocs/includes/tecnickcom/tcpdf/fonts/arial.php
+htdocs/includes/tecnickcom/tcpdf/fonts/arial.ttf
+htdocs/includes/tecnickcom/tcpdf/fonts/arial.txt
+htdocs/includes/tecnickcom/tcpdf/fonts/arial.z
+htdocs/includes/tecnickcom/tcpdf/fonts/arialb.ctg.z
+htdocs/includes/tecnickcom/tcpdf/fonts/arialb.php
+htdocs/includes/tecnickcom/tcpdf/fonts/arialb.ttf
+htdocs/includes/tecnickcom/tcpdf/fonts/arialb.txt
+htdocs/includes/tecnickcom/tcpdf/fonts/arialb.z
+htdocs/includes/tecnickcom/tcpdf/fonts/frutiger.ctg.z
+htdocs/includes/tecnickcom/tcpdf/fonts/frutiger.php
+htdocs/includes/tecnickcom/tcpdf/fonts/frutiger.ttf
+htdocs/includes/tecnickcom/tcpdf/fonts/frutiger.txt
+htdocs/includes/tecnickcom/tcpdf/fonts/frutiger.z
+htdocs/includes/tecnickcom/tcpdf/fonts/frutigerb.ctg.z
+htdocs/includes/tecnickcom/tcpdf/fonts/frutigerb.php
+htdocs/includes/tecnickcom/tcpdf/fonts/frutigerb.ttf
+htdocs/includes/tecnickcom/tcpdf/fonts/frutigerb.txt
+htdocs/includes/tecnickcom/tcpdf/fonts/frutigerb.z
+htdocs/includes/tecnickcom/tcpdf/fonts/ocrb10.ctg.z
+htdocs/includes/tecnickcom/tcpdf/fonts/ocrb10.php
+htdocs/includes/tecnickcom/tcpdf/fonts/ocrb10.ttf
+htdocs/includes/tecnickcom/tcpdf/fonts/ocrb10.txt
+htdocs/includes/tecnickcom/tcpdf/fonts/ocrb10.z
