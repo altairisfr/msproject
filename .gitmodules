@@ -1,6 +1,6 @@
 [submodule "htdocs/custom/digiquali"]
 	path = htdocs/custom/digiquali
-	url = https://github.com/Evarisk/digiquali.git
+	url = https://github.com/altairisfr/digiquali
 [submodule "htdocs/custom/saturne"]
 	path = htdocs/custom/saturne
 	url = https://github.com/Evarisk/saturne.git
