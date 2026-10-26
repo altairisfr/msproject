@@ -1,0 +1,77 @@
+# Fichier de traduction - Module MRP Gantt
+
+#
+# Module
+#
+ModuleMrpganttName = MRP Gantt
+ModuleMrpganttDesc = Vue Gantt interactive pour les Ordres de Fabrication.
+ModuleMrpganttDescLong = MRP Gantt offre une vue chronologique et interactive des Ordres de Fabrication actifs, permettant de visualiser clairement la planification et l’avancement de la production. Le module affiche les ordres sous forme de diagramme de Gantt avec un code couleur selon leur statut, des indicateurs de progression, une ligne représentant la date du jour ainsi que des filtres par statut, machine et période. Il permet également d’accéder rapidement au détail de chaque ordre afin de faciliter le suivi de la production et la prise de décision.
+#
+# Page d'administration
+#
+MrpganttSetupPage = Page de configuration MRP Gantt
+MrpganttAbout = À propos de MRP Gantt
+MrpganttAboutPage = Page d'information MRP Gantt
+MrpganttArea = MRP Gantt
+Settings = Paramètres
+mrpgantt_MrpganttSetup = Configuration MRP Gantt
+mrpgantt_ModuleDescription = MRP Gantt offre une vue chronologique et interactive des Ordres de Fabrication actifs, permettant de visualiser clairement la planification et l'avancement de la production. Le module affiche les ordres sous forme de diagramme de Gantt avec un code couleur selon leur statut, des indicateurs de progression, une ligne représentant la date du jour ainsi que des filtres par statut, machine et période. Il permet également d'accéder rapidement au détail de chaque ordre afin de faciliter le suivi de la production et la prise de décision.
+
+#
+# Page À propos
+#
+AboutTitleMRG = Module MRP Gantt
+AboutDescMRG = Vue Gantt interactive pour les Ordres de Fabrication.
+AboutVersionMRG = Ce module nécessite Dolibarr >= 18.0.0
+AboutThanksMRG = Merci d'utiliser ce module
+AboutContactTitleMRG = Nous contacter
+AboutContactDescMRG = Ce module a été développé par LEVEL IT
+AboutLevelITAddressMRG = Buenos Aires, Argentine
+AboutLevelITEmailMRG = info@levelit.com.ar
+AboutLevelITPageMRG = https://levelit.com.ar
+
+#
+# Vue Gantt
+#
+GanttMO = Gantt des Ordres de Fabrication
+GanttMOMenu = Gantt des OFs
+GanttNoOrders = Aucun ordre de fabrication trouvé pour cette période.
+GanttMinResolution = Cette vue est optimisée pour des écrans de plus de 1280px. Veuillez utiliser un navigateur de bureau.
+NoEndDate = Sans date de fin
+NoStartDate = Sans date de début
+NoDatesDefined = Dates indéfinies (début ou fin)
+AllStatuses = Tous les états
+AllMachines = Toutes les machines
+AllOperators = Tous les opérateurs
+ClearFilters = Effacer les filtres
+GoToDate = Aller à la date
+Overdue = En retard
+MoStatusProduced = Produit
+MoStatusCancelled = Annulé
+AllPlanningStates = Tous les états de planification
+PlanningState = État de planification
+PlanningUnplanned = Non planifié
+PlanningPlanned = Planifié
+PlanningRunning = En cours
+PlanningOverdue = En retard
+PlanningFinished = Terminé
+DowMon = Lun
+DowTue = Mar
+DowWed = Mer
+DowThu = Jeu
+DowFri = Ven
+DowSat = Sam
+DowSun = Dim
+MonJan = Jan
+MonFeb = Fév
+MonMar = Mar
+MonApr = Avr
+MonMay = Mai
+MonJun = Jun
+MonJul = Jul
+MonAug = Aoû
+MonSep = Sep
+MonOct = Oct
+MonNov = Nov
+MonDec = Déc
+ChooseDefaultView = Vue par défaut actuel: 

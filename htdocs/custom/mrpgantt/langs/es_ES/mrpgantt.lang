@@ -1,0 +1,77 @@
+# Archivo de traducción - Módulo MRP Gantt
+
+#
+# Módulo
+#
+ModuleMrpganttName = MRP Gantt
+ModuleMrpganttDesc = Vista Gantt interactiva para Órdenes de Fabricación.
+ModuleMrpganttDescLong = MRP Gantt proporciona una vista cronológica e interactiva de las Órdenes de Fabricación activas, permitiendo visualizar de forma clara la planificación y el avance de la producción. El módulo muestra las órdenes en formato Gantt con códigos de color según su estado, indicadores de progreso, línea de fecha actual y herramientas de filtrado por estado, máquina y período. Además, permite acceder rápidamente al detalle de cada orden para facilitar el seguimiento y la toma de decisiones en planta.
+#
+# Página de administración
+#
+MrpganttSetupPage = Página de configuración MRP Gantt
+MrpganttAbout = Acerca de MRP Gantt
+MrpganttAboutPage = Página de información MRP Gantt
+MrpganttArea = MRP Gantt
+Settings = Configuración
+mrpgantt_MrpganttSetup = Configuración MRP Gantt
+mrpgantt_ModuleDescription = MRP Gantt proporciona una vista cronológica e interactiva de las Órdenes de Fabricación activas, permitiendo visualizar de forma clara la planificación y el avance de la producción. El módulo muestra las órdenes en formato Gantt con códigos de color según su estado, indicadores de progreso, línea de fecha actual y herramientas de filtrado por estado, máquina y período. Además, permite acceder rápidamente al detalle de cada orden para facilitar el seguimiento y la toma de decisiones en planta.
+
+#
+# Página Acerca de
+#
+AboutTitleMRG = Módulo MRP Gantt
+AboutDescMRG = Vista Gantt interactiva para Órdenes de Fabricación.
+AboutVersionMRG = Este módulo requiere Dolibarr >= 18.0.0
+AboutThanksMRG = Gracias por utilizar este módulo
+AboutContactTitleMRG = Contáctanos
+AboutContactDescMRG = Este módulo fue desarrollado por LEVEL IT
+AboutLevelITAddressMRG = Ciudad Autónoma de Buenos Aires, Argentina
+AboutLevelITEmailMRG = info@levelit.com.ar
+AboutLevelITPageMRG = https://levelit.com.ar
+
+#
+# Vista Gantt
+#
+GanttMO = Gantt de Órdenes de Fabricación
+GanttMOMenu = Gantt de OFs
+GanttNoOrders = No hay órdenes de fabricación para este período.
+GanttMinResolution = Esta vista está optimizada para pantallas de al menos 1280px. Se recomienda usar un navegador de escritorio.
+NoEndDate = Sin fecha de fin
+NoStartDate = Sin fecha inicio
+NoDatesDefined = Fechas indefinidas (inicio o fin)
+AllStatuses = Todos los estados
+AllMachines = Todas las máquinas
+AllOperators = Todos los operadores
+ClearFilters = Limpiar filtros
+GoToDate = Ir a fecha
+Overdue = Vencida
+MoStatusProduced = Producido
+MoStatusCancelled = Cancelado
+AllPlanningStates = Todos los estados de planificación
+PlanningState = Estado de planificación
+PlanningUnplanned = Sin planificación
+PlanningPlanned = Planificada
+PlanningRunning = En ejecución
+PlanningOverdue = Vencida
+PlanningFinished = Finalizada
+DowMon = Lun
+DowTue = Mar
+DowWed = Mié
+DowThu = Jue
+DowFri = Vie
+DowSat = Sáb
+DowSun = Dom
+MonJan = Ene
+MonFeb = Feb
+MonMar = Mar
+MonApr = Abr
+MonMay = May
+MonJun = Jun
+MonJul = Jul
+MonAug = Ago
+MonSep = Sep
+MonOct = Oct
+MonNov = Nov
+MonDec = Dic
+ChooseDefaultView = Vista predeterminada actual: 

@@ -1,0 +1,78 @@
+# Translation file - MRP Gantt Module
+
+#
+# Module
+#
+ModuleMrpganttName = MRP Gantt
+ModuleMrpganttDesc = Interactive Gantt chart view for Manufacturing Orders.
+ModuleMrpganttDescLong = MRP Gantt provides an interactive timeline view of active Manufacturing Orders, allowing users to clearly visualize production planning and progress. The module displays orders in a Gantt chart with color-coded statuses, progress indicators, a current date marker, and filtering options by status, machine, and date range. It also enables quick access to each order's details, improving production monitoring and operational decision-making.
+
+#
+# Admin page
+#
+MrpganttSetupPage = MRP Gantt setup page
+MrpganttAbout = About MRP Gantt
+MrpganttAboutPage = MRP Gantt about page
+MrpganttArea = MRP Gantt
+Settings = Settings
+mrpgantt_MrpganttSetup = MRP Gantt Setup
+mrpgantt_ModuleDescription = MRP Gantt provides an interactive timeline view of active Manufacturing Orders, allowing users to clearly visualize production planning and progress. The module displays orders in a Gantt chart with color-coded statuses, progress indicators, a current date marker, and filtering options by status, machine, and date range. It also enables quick access to each order's details, improving production monitoring and operational decision-making.
+
+#
+# About page
+#
+AboutTitleMRG = MRP Gantt Module
+AboutDescMRG = Interactive Gantt chart view for Manufacturing Orders.
+AboutVersionMRG = This module requires Dolibarr >= 18.0.0
+AboutThanksMRG = Thank you for using this module
+AboutContactTitleMRG = Contact us
+AboutContactDescMRG = This module was developed by LEVEL IT
+AboutLevelITAddressMRG = Buenos Aires, Argentina
+AboutLevelITEmailMRG = info@levelit.com.ar
+AboutLevelITPageMRG = https://levelit.com.ar
+
+#
+# Gantt view
+#
+GanttMO = Manufacturing Orders Gantt
+GanttMOMenu = MOs Gantt
+GanttNoOrders = No manufacturing orders found for this period.
+GanttMinResolution = This view is optimized for screens wider than 1280px. Please use a desktop browser.
+NoEndDate = No end date
+NoStartDate = No start date
+NoDatesDefined = Undefined dates (start or end)
+AllStatuses = All status
+AllMachines = All machines
+AllOperators = All operators
+ClearFilters = Clear filters
+GoToDate = Go to date
+Overdue = Overdue
+MoStatusProduced = Produced
+MoStatusCancelled = Cancelled
+AllPlanningStates = All planning status
+PlanningState = Planning state
+PlanningUnplanned = Unplanned
+PlanningPlanned = Planned
+PlanningRunning = Running
+PlanningOverdue = Overdue
+PlanningFinished = Finished
+DowMon = Mon
+DowTue = Tue
+DowWed = Wed
+DowThu = Thu
+DowFri = Fri
+DowSat = Sat
+DowSun = Sun
+MonJan = Jan
+MonFeb = Feb
+MonMar = Mar
+MonApr = Apr
+MonMay = May
+MonJun = Jun
+MonJul = Jul
+MonAug = Aug
+MonSep = Sep
+MonOct = Oct
+MonNov = Nov
+MonDec = Dec
+ChooseDefaultView = Current default view: 
