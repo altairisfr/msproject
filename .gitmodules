@@ -7,9 +7,6 @@
 [submodule "htdocs/custom/dolitools"]
 	path = htdocs/custom/dolitools
 	url = dev.altairis.net:altairisfr/dolitools.git
-[submodule "htdocs/custom/equipement"]
-	path = htdocs/custom/equipement
-	url = dev.altairis.net:altairisfr/equipement.git
 [submodule "htdocs/custom/concatpdf"]
 	path = htdocs/custom/concatpdf
 	url = dev.altairis.net:altairisfr/concatpdf.git

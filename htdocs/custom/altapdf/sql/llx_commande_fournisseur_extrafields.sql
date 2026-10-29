@@ -1,1 +1,0 @@
-ALTER TABLE llx_commande_fournisseur_extrafields ADD manual_shipping_site TEXT;
