@@ -1,0 +1,30 @@
+# Dolibarr language file - de_DE - altapdf
+CHARSET=UTF-8
+Module140025Name=Modèles pdf améliorés
+Module140025Desc=Modèles pdf complets et fonctionnels
+
+##### Order #####
+DocORDER1=Auftragsbestätigung :
+DocORDER2=Datum   ___________________________
+DocORDER3=Unterschrift
+DocORDER4=Irrtümer und Auslassungen vorbehalten. Im Fälle einer Auftragsannullierung behalten wir eine Teilbelastung vor.
+
+#### Mention adresse livraison ####
+AvisAddress=Ohne gegenteilige Information von Ihrer Seite wird die auf diesem Angebot angegebene Adresse als Liefer- und Rechnungsadresse verwendet.
+
+##### Proformat #####
+ProFormaTitle=PROFORMARECHNUNG
+
+PriceWithDiscount=Einzelstück reduziert
+QtyToSend=Noch zu liefern
+WarrantyMonth=Garantie (Monate)
+CommercialProposal=Offerte
+ReductionShort=Rabatt
+AvailabilityPeriod=Liefertermin
+RefCustomer=Ihr Zeichen
+DateDeliveryPlanned=Voraussichtlicher Liefertermin
+
+##### Auftragsbestätigung #####
+OrderConfirm=Auftragsbestätigung
+
+CommercialInterlocutor=Ansprechpartner Verkauf

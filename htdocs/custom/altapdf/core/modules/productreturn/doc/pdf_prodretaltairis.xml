@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<model name="pdf_prodretaltairis">
+	<header_address_block name="sender" pos="10" width="90"/>
+	<header_address_block name="recipient" pos="110" width="90" />
+
+	<column pos="0" field="line" header="Line" length="10" header_align="C" field_align="C"/>
+	<column pos="10" field="refdesc" header="Description" length="60" header_align="C" field_align="L" font_size="9"/>
+	<column pos="70" field="barcode" header="Barcode" length="20" header_align="C" field_align="C" grow_if_absent="refdesc" />
+	<column pos="90" field="qty_sent" header="QtyShipped" length="30" header_align="C" field_align="C"/>
+	<column pos="120" field="qty_returned" header="QtyReturned" length="35" header_align="C" field_align="C"/>
+	<column pos="155" field="qty_not_returned" header="MissingQty" length="35" header_align="C" field_align="C"/>
+</model>

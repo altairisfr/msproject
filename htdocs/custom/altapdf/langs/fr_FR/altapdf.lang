@@ -1,0 +1,109 @@
+# Dolibarr language file - fr_FR - altapdf
+CHARSET=UTF-8
+Module140025Name=Modèles pdf améliorés
+Module140025Desc=Modèles pdf complets et fonctionnels
+
+##### Order #####
+DocORDER1=Bon pour accord :
+DocORDERSHOP=Livré ce jour
+DocORDER2=Date   ___________________________
+DocORDER3=Signature
+DocORDER4=Sauf erreurs ou omissions / en cas d'annulation, des frais administratifs seront facturés.
+
+#### Mention adresse livraison ####
+AvisAddress=Sans avis contraire de votre part, l'adresse de livraison et de facturation sera celle indiquée sur cette proposition commerciale.
+
+##### Proformat #####
+ProFormaTitle=FACTURE PROFORMA
+
+PriceWithDiscount=P.U. remisé
+QtyToSend=Reste à expédier
+
+##### Titre confirmation de commande #####
+OrderConfirm=Confirmation de commande
+
+WarrantyDeclaration=Déclaration d'assurance
+WarrantyBase=Base assurance
+
+CommercialInterlocutor=Contact
+BillingContact=Contact facturation
+CustomerContact=Contact client
+
+QtyBooked=Qté commandée
+AlreadyShipped=Déjà expédié
+
+Barcode=Code barre
+TotalHTNet=Total HT net
+
+Carrier=Transporteur
+
+DiscountedUP=PU HT remisé
+
+HidePackDetails=Cacher le détail des packs (produits virtuels)
+
+ShippingSite=Site de livraison
+ManualShippingSite=Saisie manuelle de l'adresse de livraison
+ClientAddress=Chez le client
+TakenAddress=Enlèvement au dépôt
+
+ShippingAddress=Adresse de livraison
+ShippingDate=Date prévue de livraison
+
+Cadre1=Clause manuscrite et signature :
+Cadre2= « Je soussigné, Madame, Monsieur (nom…) , le Maître d’Ouvrage, en accepte le coût et la charge »
+Cadre3=Signature
+
+AltapdfSetup=Paramétrage du module AltaPDF
+GeneralSetupPage=Configuration générale
+ShippingSetupPage=Paramétrage des bons de livraison
+PropalSetupPage=Paramétrage des propositions commerciales
+
+PrefixPDF=Préfixer vos PDF
+ALTAPDF_PREFIX_PDFTooltip=Par défaut à l'activation du module : « Nom de la société » (exemple : My_company_FA0101-0001.pdf).<br>Si vous sélectionnez un des trois préfixes de la liste, laissez vide le préfixe manuel. Le préfixe manuel prend le pas sur le préfixe de la liste.<br>Le choix « Nom du modèle PDF » permet de générer plusieurs PDF pour un même objet (exemple : Pre_order_CO0101-0001.pdf et Pro_format_CO0101-0001.pdf), si vous utilisez plusieurs modèle pour un même document.
+
+ALTAPDF_MANUAL_PREFIX_PDF=Préfixer manuellement vos PDF
+ALTAPDF_MANUAL_PREFIX_PDFTooltip=Si vous renseignez le préfixe manuel, la sélection du préfixe sera vidée et le préfixe manuel utilisé.<br>Évitez espaces et caractères accentués dans le préfixe.
+
+NoPrefix=Pas de préfixe
+NameSociete=Nom de votre société
+NamePdfModele=Nom du modèle PDF
+
+ALTAPDF_HIDE_PRODUCT_DESC=Cacher la description des produits sur tous les PDF
+ALTAPDF_CUSTOMCODE_COUNTRY=Afficher les nomenclatures douanère (Code SH) + le pays d'origine si vous cachez la description des produits
+
+ALTAPDF_SHIPPING_CARRIER_IN_INFOS=Inclure les informations transporteur dans les blocs supplémentaires
+ALTAPDF_SHIPPING_CARRIER_IN_INFOSDesc=
+
+ALTAPDF_SHIPPING_DELIVERY_ADDRESS_IN_INFOS=Inclure l'adresse de livraison dans les blocs supplémentaires
+ALTAPDF_SHIPPING_DELIVERY_ADDRESS_IN_INFOSDesc=
+
+ALTAPDF_SHIPPING_CUSTOMER_CONTACT_IN_INFOS=Inclure le contact client dans les blocs supplémentaires
+ALTAPDF_SHIPPING_CUSTOMER_CONTACT_IN_INFOSDesc=
+
+ALTAPDF_FORCE_HIDEPACK_DETAILS=Forcer l’option pour cacher le détail des packs
+ALTAPDF_PRINT_UNSHIPPED_LINES=Imprimer les lignes non livrées sur les bons de livraison
+
+ALTAPDF_PROPOSAL_USE_ELECTRONIC_SIGNING=Autoriser la signature en ligne
+
+PDF_HIDE_SALES_REP_IN_SENDER_FRAME=Afficher le représentant commercial dans le cadre de l'émetteur (expéditeur)
+
+ALTAPDF_EXONERATION_TVA_LEGAL_NOTICE=Afficher les mentions légales Union et Hors Union européenne pour l'éxonération de TVA, si votre entreprise est en France (PDF facture)
+
+ALTAPDF_ADD_TERMSOFSALE_PROPAL=Afficher les conditions générales de vente après le devis, si paramétré dans Accueil->Configuration->PDF
+ALTAPDF_ADD_TERMSOFSALE_ORDER=Afficher les conditions générales de vente après la commande, si paramétré dans Accueil->Configuration->PDF
+ALTAPDF_ADD_TERMSOFSALE_INVOICE=Afficher les conditions générales de vente après la facture, si paramétré dans Accueil->Configuration->PDF
+
+ALTAPDF_HIDE_COMPANY_NAME_IN_SHIPPING_ADDRESS=Ne pas imprimer le nom de la société dans le bloc adresse de livraison si le contact de livraison est défini sur la pièce commerciale
+
+ALTAPDF_HIDE_PROFID1_PROFID2_SHIPPING_ADDRESS=Ne pas imprimer le SIRET et SIREN dans le bloc adresse de livraison sur les devis, commandes client et factures
+
+SupplierOrderShippingSetupPage=Paramétrage de l'adresse de livraison d'un fournisseur vers un autre lieu sur les commandes fournisseur
+ALTAPDF_ADD_WAREHOUSE=Choix des entrepôts ouverts (choix multiple)
+ALTAPDF_ADD_TIER=Choix des clients / fournisseurs (choix multiple)
+ShippingSiteSupplierOrder=Site de livraison
+
+DateDeliveryPlanned=Date prévue de livraison
+MontantHT=Montant HT
+
+ExoTvaIntra=Exonération de TVA – livraison intracommunautaire – art. 262 ter I du CGI
+ExoTvaHorsUe=Exonération de TVA – Exportation hors UE – art. 262 I du CGI

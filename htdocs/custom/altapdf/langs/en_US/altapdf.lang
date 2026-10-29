@@ -1,0 +1,100 @@
+# Dolibarr language file - fr_FR - altapdf
+CHARSET=UTF-8
+Module140025Name=Better pdf models
+Module140025Desc=Better pdf models
+
+##### Order #####
+DocORDER1=Signed and accepted:
+DocORDERSHOP=Taken this day
+DocORDER2=Date
+DocORDER3=Signature
+DocORDER4=Errors and omissions excluded - In case of cancellation, fees may be charged.
+
+#### Mention adresse livraison ####
+AvisAddress=Unless advised otherwise, both goods and invoice will be sent to the address indicated on this quotation.
+
+##### Proformat #####
+ProFormaTitle=PROFORMA INVOICE
+
+PriceWithDiscount=Unit price discounted
+QtyToSend=Qty to send
+
+##### Order confirmation #####
+OrderConfirm=Order Confirm
+
+WarrantyDeclaration=Warranty Declaration
+WarrantyBase=Warranty Base
+
+CommercialInterlocutor=Contact
+BillingContact=Billing contact
+CustomerContact=Customer contact
+
+QtyBooked=Qty ordered
+AlreadyShipped=Already shipped
+
+Barcode=Barcode
+TotalHTNet=Total net
+
+Carrier=Carrier
+
+DiscountedUP=Discounted UP
+
+HidePackDetails=Hide pack details (virtual products)
+
+ShippingSite=Shipping site
+ManualShippingSite=Manual input of delivery address
+ClientAddress=Client address
+TakenAddress=Collection
+
+ShippingAddress=Shipping address
+ShippingDate=Expected delivery date
+
+AltapdfSetup=AltaPDF module setup
+GeneralSetupPage=General setup
+ShippingSetupPage=Sending sheet setup
+PropalSetupPage=Commercial proposal setup
+
+PrefixPDF=Prefix your PDFs
+ALTAPDF_PREFIX_PDFTooltip=Default on module activation: “Company name” (example : My_company_FA0101-0001.pdf).<br>Leave Manual prefix empty if you select a prefix from list. Manual prefix will be used.<br>”PDF template name” selection will allow to generating multiple PDF on a single object (example : Pre_order_CO0101-0001.pdf, Pro_format_CO0101-0001.pdf) instead of replacing PDF on new generation, if you use multiple templates for a same type of document.
+
+ALTAPDF_MANUAL_PREFIX_PDF=Manually prefix your PDFs
+ALTAPDF_MANUAL_PREFIX_PDFTooltip=If you add a manual prefix, the prefix selection will be emptied to use your manual prefix.<br>Please avoid spaces and accents in the prefix.
+
+NoPrefix=No prefix
+NameSociete=Company name
+NamePdfModele=PDF template name
+
+ALTAPDF_HIDE_PRODUCT_DESC=Hide product descriptions on all PDF
+ALTAPDF_CUSTOMCODE_COUNTRY=Show customCustoms|Commodity|HS code + country of origin if you hide the description of products
+
+ALTAPDF_SHIPPING_CARRIER_IN_INFOS=Include carrier informations in optional block
+ALTAPDF_SHIPPING_CARRIER_IN_INFOSDesc=
+
+ALTAPDF_SHIPPING_DELIVERY_ADDRESS_IN_INFOS=Include shipping address in optional block
+ALTAPDF_SHIPPING_DELIVERY_ADDRESS_IN_INFOSDesc=
+
+ALTAPDF_SHIPPING_CUSTOMER_CONTACT_IN_INFOS=Include customer contact in optional block
+ALTAPDF_SHIPPING_CUSTOMER_CONTACT_IN_INFOSDesc=
+
+ALTAPDF_FORCE_HIDEPACK_DETAILS=Force option to hide package details
+ALTAPDF_PRINT_UNSHIPPED_LINES=Print undelivered lines on Delivery orders
+
+ALTAPDF_PROPOSAL_USE_ELECTRONIC_SIGNING=Allow online signing
+
+PDF_HIDE_SALES_REP_IN_SENDER_FRAME=Show sales representative in sender frame
+
+ALTAPDF_ADD_TERMSOFSALE_PROPAL=Display the terms and conditions of sale after the proposal, if configured in Home->Setup->PDF
+ALTAPDF_ADD_TERMSOFSALE_ORDER=Display the terms and conditions of sale after the order, if configured in Home->Setup->PDF
+ALTAPDF_ADD_TERMSOFSALE_INVOICE=Display the terms and conditions of sale after the invoice, if configured in Home->Setup->PDF
+
+ALTAPDF_HIDE_COMPANY_NAME_IN_SHIPPING_ADDRESS=Hide company name in delivery address block if delivery contact is defined on business part
+
+ALTAPDF_HIDE_PROFID1_PROFID2_SHIPPING_ADDRESS=Hide SIRET and SIREN in delivery address block for the quote, customer order and invoice
+
+SupplierOrderShippingSetupPage=Setting a supplier's delivery address to another location on supplier orders
+ALTAPDF_ADD_WAREHOUSE=Choice of open warehouses (multiple choice)
+ALTAPDF_ADD_TIER=Customer/Supplier Choice (Multiple Choice)
+ShippingSiteSupplierOrder=Delivery site
+
+DateDeliveryPlanned=Date delivery planned
+MontantHT=Amount ex-tax

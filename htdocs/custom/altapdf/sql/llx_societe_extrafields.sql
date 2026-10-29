@@ -1,0 +1,1 @@
+ALTER TABLE llx_societe_extrafields ADD shipping_address TEXT;
