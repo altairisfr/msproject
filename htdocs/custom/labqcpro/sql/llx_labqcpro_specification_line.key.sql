@@ -1,0 +1,2 @@
+ALTER TABLE llx_labqcpro_specification_line ADD INDEX idx_labqcpro_specification_line_spec (fk_specification);
+ALTER TABLE llx_labqcpro_specification_line ADD INDEX idx_labqcpro_specification_line_position (position);

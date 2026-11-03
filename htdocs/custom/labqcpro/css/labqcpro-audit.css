@@ -1,0 +1,25 @@
+
+/* 1.1.0-dev6 Audit Trail: no broken usernames/references on wide screens */
+.labqc-audit-wrap{border:1px solid #dce5ec;border-radius:12px;background:var(--colorbackbody,#fff);padding:12px;max-width:100%;box-sizing:border-box}
+.labqc-audit-table{width:100%!important;table-layout:auto;border-collapse:separate;border-spacing:0}
+.labqc-audit-table th{background:#e9f2f7!important;color:#224c68!important;font-weight:750;padding:13px 9px!important;text-align:left}
+.labqc-audit-table td{padding:12px 9px!important;vertical-align:middle!important;line-height:1.5;border-bottom:1px solid #e8edf1}
+.labqc-audit-table td:nth-child(1),.labqc-audit-table td:nth-child(2),.labqc-audit-table td:nth-child(5){white-space:nowrap!important;word-break:normal!important;overflow-wrap:normal!important}
+.labqc-audit-table td:nth-child(1) .labqc-audit-value,.labqc-audit-table td:nth-child(2) .labqc-audit-value,.labqc-audit-table td:nth-child(5) .labqc-audit-value{white-space:nowrap!important;word-break:normal!important;overflow-wrap:normal!important;hyphens:none!important}
+.labqc-audit-table td:nth-child(2) a{white-space:nowrap!important;word-break:normal!important;overflow-wrap:normal!important}
+.labqc-audit-table td:nth-child(6),.labqc-audit-table td:nth-child(7),.labqc-audit-table td:nth-child(8){overflow-wrap:break-word;min-width:105px}
+.labqc-audit-table tbody tr:hover{background:rgba(51,121,160,.055)}
+@media(min-width:1201px){.labqc-audit-wrap{overflow-x:auto}}
+/* At medium and mobile widths use full-width audit event cards instead of squeezed columns. */
+@media(max-width:1200px){
+.labqc-audit-wrap{overflow:visible!important;padding:12px!important}
+.labqc-audit-table{display:block!important;width:100%!important}
+.labqc-audit-table thead{display:none!important}
+.labqc-audit-table tbody{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.labqc-audit-table tr.oddeven{display:flex!important;flex-direction:column;width:100%!important;min-width:0!important;border:1px solid #dce5ec;border-radius:10px;overflow:hidden;background:var(--colorbackbody,#fff)}
+.labqc-audit-table td{width:100%!important;display:flex!important;align-items:flex-start!important;gap:10px;box-sizing:border-box;min-width:0;white-space:normal!important;padding:8px 12px!important;border-bottom:1px solid #eef1f4!important}
+.labqc-audit-table td:before{content:attr(data-label)!important;flex:0 0 100px;width:100px;font-weight:750;color:var(--colortext,#284558);font-size:12px}
+.labqc-audit-table td .labqc-audit-value,.labqc-audit-table td .labqc-audit-value a{display:block;min-width:0;white-space:normal!important;overflow-wrap:anywhere!important;word-break:normal!important}
+.labqc-audit-table td.labqc-audit-empty{display:block!important}.labqc-audit-table td.labqc-audit-empty:before{content:none!important}
+}
+@media(max-width:767px){.labqc-audit-table tbody{grid-template-columns:1fr!important}}

@@ -1,0 +1,10 @@
+/* LabQC Pro 1.1.1: responsive manual inspection metadata */
+.labqc-inspection-panel{border:1px solid #d8e5ed;border-radius:10px;margin:18px 0;padding:14px 16px;max-width:100%;box-sizing:border-box;}
+.labqc-inspection-panel .labqc-results-heading{font-weight:700;background:#e9f2f7;color:#234a64;padding:12px;margin:-14px -16px 16px;}
+.labqc-inspection-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 20px;}
+.labqc-inspection-field{min-width:0;display:flex;flex-direction:column;gap:6px;}
+.labqc-inspection-field label{font-weight:600;}
+.labqc-inspection-field select,.labqc-inspection-field input{box-sizing:border-box;display:block;width:100%;max-width:100%;min-width:0;min-height:38px;}
+.labqc-inspection-readonly{padding:8px 10px;min-height:20px;border-radius:4px;background:rgba(132,156,170,.08);overflow-wrap:anywhere;}
+.labqc-inspection-actions{margin-top:14px;}
+@media (max-width:767px){.labqc-inspection-grid{grid-template-columns:minmax(0,1fr)}.labqc-inspection-panel{padding:12px}.labqc-inspection-panel .labqc-results-heading{margin:-12px -12px 16px}.labqc-inspection-actions .button{max-width:100%;white-space:normal}}
